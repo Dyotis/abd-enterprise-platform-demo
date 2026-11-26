@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ABD analytics pitch</title>
+<style>
+:root{--ink:#12202F;--paper:#F6F3EC;--accent:#E39B2D;--mute:#53636F;--soft:#BFCBD5;--line:#DDD6C8}
+*{box-sizing:border-box}html{scroll-snap-type:y mandatory}body{margin:0;font-family:Inter,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--paper)}
+section{min-height:100vh;scroll-snap-align:start;padding:clamp(24px,6vw,96px);display:flex;flex-direction:column;justify-content:center;gap:clamp(16px,2.4vw,36px);background:var(--paper)}
+section.dark{background:var(--ink);color:var(--paper)}
+h1,h2,h3{font-family:"Space Grotesk",Inter,Arial,sans-serif;margin:0;font-weight:600;line-height:1.1}
+h1{font-size:clamp(34px,6.2vw,92px)}h2{font-size:clamp(28px,4.2vw,64px)}h3{font-size:clamp(20px,2.4vw,36px)}
+.eyebrow{margin:0;font-size:clamp(13px,1.6vw,22px);font-weight:600;letter-spacing:.08em;color:#9A5B00}.dark .eyebrow{color:var(--accent)}
+.lede{font-size:clamp(17px,2.1vw,30px);line-height:1.35;color:var(--mute);max-width:1100px;margin:0}.dark .lede{color:var(--soft)}
+.row{display:flex;gap:clamp(12px,2vw,28px);flex-wrap:wrap;align-items:stretch}
+.card{flex:1 1 240px;background:#fff;border:2px solid var(--line);border-radius:16px;padding:clamp(18px,2.4vw,34px);display:flex;flex-direction:column;gap:10px}
+.dark .card{background:#1B2E43;border-color:#2A4560}.card p{margin:0;font-size:clamp(15px,1.7vw,24px);line-height:1.35;color:var(--mute)}.dark .card p{color:var(--soft)}
+.big{font-family:"Space Grotesk",Inter,Arial,sans-serif;font-size:clamp(44px,7vw,104px);font-weight:600;color:#B56E00;line-height:1}
+.arrow{align-self:center;font-size:clamp(28px,4vw,56px);color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(12px,2vw,28px)}
+figure{margin:0;flex:1 1 380px}figure img{width:100%;height:auto;border-radius:12px;border:2px solid var(--line);display:block}figcaption{margin-top:10px;font-size:clamp(14px,1.6vw,22px);color:var(--mute)}
+.step{display:flex;gap:clamp(14px,3vw,40px);flex-wrap:wrap;padding:clamp(12px,1.8vw,24px) 0;border-top:2px solid #2A4560}.step b.when{flex:0 0 220px;font-family:"Space Grotesk",Inter,Arial,sans-serif;font-size:clamp(18px,2.2vw,32px);color:var(--accent)}.step p{flex:1 1 320px;margin:0;font-size:clamp(16px,1.9vw,28px);line-height:1.35}
+.small{font-size:14px;color:#8FA2B3;margin:0}a{color:var(--accent)}.bar{width:96px;height:6px;background:var(--accent);border-radius:3px}
+.hint{position:fixed;right:14px;bottom:10px;font-size:12px;color:#8FA2B3;background:rgba(18,32,47,.7);padding:4px 9px;border-radius:99px}
+</style></head><body>
+
+<section class="dark"><p class="eyebrow">ANALYTICS PROPOSAL FOR ALLIED BLENDERS &amp; DISTILLERS</p><div class="bar"></div>
+<h1>Your SAP already knows everything. Let everyone use it.</h1>
+<p class="lede">One analytics app on top of a data lake, with no extra SAP licences for people who only need to look.</p>
+<p class="small">Live demo, built on sample data</p></section>
+
+<section><p class="eyebrow">THE PROBLEM</p><h2>Answers wait on a few people</h2>
+<div class="row">
+<div class="card"><span class="big">41</span><h3>facilities</h3><p>Distilleries, bottling units and a PET plant, each reporting its own way.</p></div>
+<div class="card"><span class="big">30+</span><h3>states and UTs</h3><p>Each with its own excise rules, permits and price notifications.</p></div>
+<div class="card"><span class="big">80,000+</span><h3>retail touchpoints</h3><p>Primary sales are visible. Stock-outs at distributors are not.</p></div></div>
+<p class="lede">Every team needs numbers from SAP. Few can get them without a licence seat or a request to IT. <span class="small" style="color:var(--mute)">Figures: abdindia.com</span></p></section>
+
+<section class="dark"><p class="eyebrow">THE IDEA</p><h2>SAP stays. The reading moves out.</h2>
+<div class="row"><div class="card"><h3>SAP S/4HANA</h3><p>The system of record. Orders, goods movement, payments and excise e-challans stay here, untouched.</p></div><span class="arrow">→</span>
+<div class="card"><h3>Data lake</h3><p>A synced copy, hourly to daily. Also holds distributor sales, plant historians and grain and glass prices.</p></div><span class="arrow">→</span>
+<div class="card"><h3>ABD app</h3><p>One dashboard per team, on any device. People who only read need no SAP licence.</p></div></div>
+<p class="lede">Anything that writes stays in SAP. Anything that can be an hour old moves to the lake.</p></section>
+
+<section><p class="eyebrow">WHAT ABD GETS</p><h2>One app, six questions leaders ask</h2>
+<div class="grid">
+<div class="card"><h3>Sales &amp; Brand</h3><p>Which brands and states are growing, and is the mix moving up?</p></div>
+<div class="card"><h3>Finance</h3><p>Where is margin going: grain, glass or promotion?</p></div>
+<div class="card"><h3>Plant &amp; Distillery</h3><p>Which plant is losing line time, and which distillery is under yield?</p></div>
+<div class="card"><h3>Supply &amp; Inventory</h3><p>Will glass and molasses last until the festive peak?</p></div>
+<div class="card"><h3>Distribution &amp; Excise</h3><p>Which states are waiting on permits, and where is stock out?</p></div>
+<div class="card"><h3>Quality &amp; EHS</h3><p>Which batches are held, and is effluent near its limit?</p></div></div>
+<p class="lede">Also in the demo: Capex &amp; Projects, People, and AI insights that a person approves before anything reaches SAP.</p></section>
+
+<section><p class="eyebrow">THE DEMO</p><h2>Sales and supply, on screen</h2>
+<div class="row"><figure><img src="img/sales.jpg" alt="Sales and brand dashboard"><figcaption>Sales &amp; Brand: revenue by category, month by month.</figcaption></figure>
+<figure><img src="img/supply.jpg" alt="Supply and inventory dashboard"><figcaption>Supply: molasses and 750 ml glass are below minimum cover.</figcaption></figure></div></section>
+
+<section><p class="eyebrow">THE DEMO</p><h2>Health at a glance, gaps by state</h2>
+<div class="row"><figure><img src="img/home.jpg" alt="Home screen"><figcaption>Home: eight apps, one health view, and a plain-language question box.</figcaption></figure>
+<figure><img src="img/distribution.jpg" alt="Distribution and excise dashboard"><figcaption>Distribution: fill rate and stock-outs state by state.</figcaption></figure></div>
+<p class="lede"><a href="../">Open the live demo →</a></p></section>
+
+<section class="dark"><p class="eyebrow">NEXT STEP</p><h2>Start with two weeks</h2>
+<div><div class="step"><b class="when">Weeks 1–2</b><p><b>Discovery.</b> Map the SAP landscape, confirm what can be synced and how, and choose the first dashboards.</p></div>
+<div class="step"><b class="when">Next 8–10 weeks</b><p><b>Phase 1.</b> Sales &amp; Brand, Finance, and Distribution &amp; Excise, running on a live lake with ABD data.</p></div>
+<div class="step"><b class="when">After that</b><p><b>Phase 2.</b> Plant, Supply, Quality, then forecasting and alerts.</p></div></div>
+<p class="lede">The demo uses sample data. Phase 1 uses yours.</p></section>
+
+<div class="hint">↑ ↓ or scroll</div>
+</body></html>
