@@ -57,3 +57,6 @@ td{padding:8px;border-bottom:1px solid #eef1f6}tr:last-child td{border:0}td.n,th
 @media(max-width:1000px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}.g32{grid-template-columns:1fr}}
 @media(max-width:760px){.side{display:none;position:fixed;z-index:30;top:56px;left:0;height:calc(100vh - 56px)}.side.open{display:block}.mob{display:inline-block}main{padding:16px 14px 50px}.g2,.g3,.g4{grid-template-columns:1fr}.hb{grid-template-columns:110px 1fr 64px}.top .chip{display:none}}
 .grid.g2>.card:nth-child(3){grid-column:1/-1}
+
+.dy{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--mute);font-size:12px;margin-right:6px}.dy img{height:28px;width:auto;display:block}@media(max-width:700px){.dy small{display:none}}
+.foot{position:fixed;left:0;right:0;bottom:0;z-index:5;text-align:center;font-size:12px;letter-spacing:.06em;color:var(--mute);background:rgba(255,255,255,.92);border-top:1px solid var(--line,#e5e7eb);padding:4px 0;text-decoration:none}main{padding-bottom:36px}
